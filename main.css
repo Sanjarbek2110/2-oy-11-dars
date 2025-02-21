@@ -1,0 +1,236 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Poppins", serif;
+}
+
+.container{
+    max-width: 1110px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header{
+    padding-top: 48px;
+    margin-bottom: 78px;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav__left{
+    display: flex;
+    align-items: center;
+    gap: 0 45px;
+}
+
+.heder_logo{
+    display: flex;
+    align-items: center;
+}
+
+.heder_logo img{
+    width: 120.04px;
+    height: 32.67px;
+}
+
+.nav__ul{
+    display: flex;
+    gap: 0 30px;
+    align-items: center;
+    list-style: none;
+}
+
+.nav__ul li a{
+    text-decoration: none;
+    color: #9e9aa8;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 23px;
+    transition: .3s all ease-in-out;
+}
+
+.nav__ul li a:hover{
+    color: black;
+}
+
+.nav__right{
+    border-radius: 28px;
+    border: none;
+    background: #2bd0d0;
+    padding: 8px 24px;
+
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 23px;
+    transition: .3s all ease-in-out;
+    cursor: pointer;
+}
+
+.nav__right:hover{
+    background-color: #9e9aa8;
+}
+
+.hero{
+    position: relative;
+    height: 482px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 152px;
+}
+
+.hero__right{
+    position: absolute;
+    top: 0;
+    right: -123px;
+    width: 733px;
+    height: 482px;
+    object-fit: cover;
+}
+
+.hero__title{
+    color: #34313d;
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 90px;
+    letter-spacing: -2px;
+    margin-bottom: 115px;
+}
+
+.hero__button{
+    border-radius: 28px;
+    border: none;
+    background: #2bd0d0;
+    padding: 13px 40px;
+
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    transition: .3s all ease-in-out;
+    cursor: pointer;
+}
+
+.hero__button:hover{
+    background-color: #9e9aa8;
+}
+
+.links{
+    position: relative;
+    background: #543030;
+    padding-top: 87px;
+    padding-bottom: 60px;
+}
+
+.form{
+    position: absolute;
+    top: -92px;
+}
+
+form{
+    border-radius: 10px;
+    background: #3a3054;
+    padding: 52px 65px;
+    display: flex;
+    align-items: center;
+    gap: 0 25px;
+
+    position: relative;
+    overflow: hidden;
+}
+
+form::after{
+    content: '';
+    position: absolute;
+    width: 715.16px;
+    height: 409.91px;
+    background-image: url('./images/f_after.png');
+    bottom: -270px;
+    left: -134px;
+}
+
+form::before{
+    content: '';
+    position: absolute;
+    width: 715.16px;
+    height: 409.91px;
+    background-image: url('./images/f_after.png');
+    top: -184px;
+    right: -252px;
+}
+
+input{
+    border-radius: 10px;
+    border: none;
+    z-index: 2;
+    outline: none;
+    background: #ffffff;
+    padding: 14px 0 14px 32px;
+    width: 770px;
+
+    color: #34313d;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 36px;
+    letter-spacing: 0.15px;
+}
+
+form .hero__button{
+    padding: 18px 40px;
+    z-index: 2;
+    border-radius: 10px;
+}
+
+h2{
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -1px;
+    text-align: center;
+    margin-bottom: 13px;
+}
+
+.links__content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer{
+    padding: 68px;
+    padding-bottom: 53px;
+    background: #232127;
+    color: #FFF;
+}
+
+footer .nav__left{
+    gap: 0 38px;
+}
+
+footer .nav__ul{
+    gap: 0 50px;
+}
+
+footer .nav__ul li a{
+    color: #ffffff;
+}
+
+footer .nav__ul li a:hover{
+    color: #c77736;
+}
+
+.nav__right1{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: 0 24px;
+}
